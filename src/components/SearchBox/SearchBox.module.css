@@ -1,0 +1,25 @@
+.searchBox {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: start;
+  font-weight: 600;
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.searchInput {
+  border: 2px solid black;
+  border-radius: 2.5px;
+}
+
+.searchInput:hover {
+  border: 2px solid #646cff;
+}
+
+.icon {
+  position: absolute;
+  left: 270px;
+  top: 35px;
+}

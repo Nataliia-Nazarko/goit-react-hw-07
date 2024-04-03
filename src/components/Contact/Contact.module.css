@@ -1,0 +1,26 @@
+.contactCard {
+  display: flex;
+  justify-content: space-between;
+  min-width: 270px;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.contactDetails {
+  text-align: left;
+  font-weight: 600;
+}
+
+.contactItem {
+  padding: 5px 0;
+}
+
+.contactIcon {
+  margin-right: 5px;
+}
+
+.contactBtn {
+  background-color: rgb(231, 228, 228);
+}

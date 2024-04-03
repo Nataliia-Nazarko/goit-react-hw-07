@@ -1,0 +1,39 @@
+.form {
+  max-width: 300px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 4px;
+  row-gap: 15px;
+  text-align: left;
+  font-weight: 600;
+}
+
+input {
+  min-width: 275px;
+  font-size: 1em;
+  font-weight: 400;
+  font-family: inherit;
+  line-height: 1;
+  padding: 5px;
+  margin-top: 3px;
+
+  border: 1px solid;
+}
+
+input:hover {
+  border: 1.5px solid blue;
+}
+
+.addBtn {
+  background-color: rgb(231, 228, 228);
+  max-width: 150px;
+  margin: 3px auto;
+}
+
+.errorMessage {
+  color: red;
+  font-weight: 400;
+}
