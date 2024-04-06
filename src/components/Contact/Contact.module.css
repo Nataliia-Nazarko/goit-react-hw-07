@@ -1,7 +1,7 @@
 .contactCard {
   display: flex;
   justify-content: space-between;
-  min-width: 270px;
+  min-width: 300px;
   align-items: center;
   padding: 10px;
   border: 1px solid black;

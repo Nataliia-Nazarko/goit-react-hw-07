@@ -8,7 +8,7 @@ import { useDispatch } from "react-redux";
 const Contact = ({ name, number, id }) => {
   const dispatch = useDispatch();
 
-  const onDelete = (id) => {
+  const onDelete = () => {
     dispatch(deleteContact(id));
   };
 
